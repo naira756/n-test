@@ -10,10 +10,7 @@
         height: 260px;
         display: flex;
         justify-content: center;
-        padding-top: 50px;
-        
-        
-        
+        padding-top: 50px;  
     }
     .menu-logo{
         width: 540px;
@@ -41,26 +38,23 @@
    .menu-logo>ul>li:nth-of-type(1)>a{
     color: rgb(11,163,156);
    }
+   /* ******end of logo-container***** */
+
+   /* *****hero***** */
    .hero{
     width: 100%;
     height: 440px;
     background-image: url(./../img/the-beacon.jpg);
     background-size: cover;
-    background-color: rgba(0,0,0,3);
-    
-    
+    background-color: linear-gradient(0,0,0,0.5),rgba(0,0,0,0.5); 
    }
    .txt{
-    
     width: 100%;
     height: inherit;
     flex-direction: column;
     padding-left: 560px;
-    padding-top: 70px;
-    
+    padding-top: 70px; 
    }
-   
-   
    .txt-1{
     width: 450px;
     height: 70px;
@@ -110,12 +104,12 @@
     margin-top: 25px;
     margin-left: -253px;
    }
+   /* ******end of hero****** */
+
+   /* ******actor***** */
    .actor{
     width: 100%;
     height: 380px;
-    
-
-
    }
 .actor>ul{
     display: flex;
@@ -128,18 +122,12 @@
     list-style: none;
     align-items: center;
     padding-left: 50px;
-    padding-right: 50px;
-    
-    
+    padding-right: 50px;   
 }
 .actor>ul>li>a img{
     border: 2px solid black;
     opacity: 75%;
 }
-
-
-
-
 .actor>ul>li>a>h2{
     color: black;
     font-weight: 1000;
@@ -147,10 +135,86 @@
     font-size: 25px;
     margin-top: 17px; 
 }
+/* *****end of actor**** */
+
+/* *****bottom***** */
 .bottom{
     width: 100%;
     height: 110px;
     background-color:rgb(37,37,37) ;
+    display: flex;
 }
-
+.copy{
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 110px;
+    height: inherit;
+    font-size: 20px;
+}
+i.icon{
+    
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;   
+}
+.copy-1{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+/* *******end of bottom */
+/* ************************************about**************************** */
+/* ****logo-about *****8*/
+.logo-about{
+    width: 100%;
+    height: 70px;
+    padding-left: 270px;
+}
+.logo-about1{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+/* *******end of logo-about***** */
+/* *****hero-about***** */
+.hero-about{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.hero-about img{
+    width: 700px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border: 2px solid black;
+}
+/* ******end of hero-about***** */
+/* ******txt-about******* */
+.txt-about{
+    text-align: center;
+    font-size:20px;
+    line-height: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.txt-about>a{
+    color: black;
+    text-decoration: underline;
+}
    
