@@ -247,7 +247,8 @@ i.icon{
     margin-bottom: 25px;
    }
    /* ******end of gallery****** */
-  
+
+   /* ******blog****** */
 .logo-blog{
     width: 150px;
     height: 70px;
@@ -258,6 +259,7 @@ i.icon{
     line-height: 70PX;
     margin-left: 500PX;
 }
+/* hero-blog */
 .hero-blog{
     display: flex;
     flex-direction: column;
@@ -265,6 +267,9 @@ i.icon{
     gap: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.hero-blog p{
+    line-height: 25px;
 }
 .hero-blog1{
     display: flex;
@@ -284,7 +289,7 @@ i.icon{
     font-size: 25px;
     font-weight:900 ;
 }
-.txt-blog1 a{
+.read a{
     width: 150px;
     height: 30px;
     background-color: black;
@@ -293,6 +298,10 @@ i.icon{
     text-align: center;
     line-height: 30px;
     margin-left: 130px;
+}
+.tb1{
+    text-decoration: underline;
+    color: black;
 }
 .hero-blog1 img{
     width: 40%;
@@ -320,19 +329,17 @@ i.icon{
     padding-right: 50px;
     padding-top: 60px;
 }
-.txt-blog2 a{
-    width: 150px;
-    height: 30px;
-    background-color: black;
-    color: white;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    margin-left: 130px;
-}
 .txt-blog2 h1{
     font-size: 25px;
     font-weight:900 ;
+}
+.tb2{
+    text-decoration: underline;
+    color: black;
+}
+.tb2-2{
+    text-decoration: underline;
+    color: black;
 }
 
 .hero-blog3 img{
@@ -355,17 +362,12 @@ i.icon{
     padding-right: 50px;
     padding-top: 60px;
 }
-.txt-blog3 a{
-    width: 150px;
-    height: 30px;
-    background-color: black;
-    color: white;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    margin-left: 130px;
-}
 .txt-blog3 h1{
     font-size: 25px;
     font-weight:900 ;
 }
+.tb3{
+    text-decoration: underline;
+    color: black;
+}
+/* ******end of blog****** */
