@@ -371,3 +371,42 @@ i.icon{
     color: black;
 }
 /* ******end of blog****** */
+
+/* ******contact******** */
+.logo-contact{
+    width: 500px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70PX;
+    margin-left: 330PX;
+}
+/* hero-contact */
+.hero-contact{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+    padding-left: 230px;
+}
+.hero-contact input{
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+.send a{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    display: block;
+}
+/* bottom-hero */
