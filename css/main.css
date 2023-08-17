@@ -27,16 +27,23 @@ padding-top: 50px;
 padding-left: 200px;
 padding-right: 200px;
 list-style: none;
+transition-property: all;
+transition-duration: 100ms;
+transition-timing-function: linear;
 }
 .menu-logo>ul>li>a{
 color: black;
 font-size: bold;
 font-weight: bolder;
+
 }
 
-.menu-logo>ul>li:nth-of-type(1)>a{
-color: rgb(11,163,156);
+.menu-logo>ul>li>a:hover{
+    color: rgb(11, 163, 156);
 } 
+
+
+
 
 /* /* ****end of logo****** */
 
@@ -97,12 +104,18 @@ color: rgb(11,163,156);
    .txt-5{
     width: 150px;
     height: 60px;
-    background-color:rgb(11,163,156);
+    background-color: rgb(11,163,156);
     color: white;
     font-size: 17px;
     border: none;
     margin-top: 25px;
     margin-left: -253px;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+   }
+   .txt-5:hover{
+    background-color:rgba(11,163,156,0.6) ;
    }
    /* ******end of hero****** */
 
@@ -127,6 +140,12 @@ color: rgb(11,163,156);
 .actor>ul>li>a img{
     border: 2px solid black;
     opacity: 75%;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+.actor>ul>li>a img:hover{
+    opacity: 1;
 }
 .actor>ul>li>a>h2{
     color: black;
@@ -188,6 +207,7 @@ i.icon{
     text-align: center;
     line-height: 70px;
 }
+
 /* *******end of logo-about***** */
 /* *****hero-about***** */
 .hero-about{
@@ -232,13 +252,18 @@ i.icon{
    }
    /* gallery-hero */
    .hero-gallery{
-    background-color: red;
-   
+    
    }
    .hero-gallery img{
     border: 2px solid black;
-  
+    opacity: 0.8;
    }
+   .hero-gallery img:hover{
+    opacity: 1;
+
+   }
+
+
    .hero-gallery1{
     display: flex;
     flex-wrap: wrap;
@@ -247,10 +272,11 @@ i.icon{
     gap: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-    opacity: 0.8;
+    
     align-items: center;
-  
-
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
    }
    /* ******end of gallery****** */
 
@@ -273,6 +299,9 @@ i.icon{
     gap: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 .hero-blog p{
     line-height: 25px;
@@ -281,6 +310,10 @@ i.icon{
     display: flex;
     width: 940px;
     height: 295px;
+    opacity: 0.8;
+}
+.hero-blog1:hover{
+    opacity: 2;
 }
 .txt-blog1{
     text-align: center;
@@ -325,6 +358,10 @@ i.icon{
     display: flex;
     width: 940px;
     height: 295px;
+    opacity: 0.8;
+}
+.hero-blog2:hover{
+    opacity: 2;
 }
 .txt-blog2{
     text-align: center;
@@ -358,6 +395,10 @@ i.icon{
     display: flex;
     width: 940px;
     height: 295px;
+    opacity: 0.8;
+}
+.hero-blog3:hover{
+    opacity: 2;
 }
 .txt-blog3{
     text-align: center;
