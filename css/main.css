@@ -10,7 +10,9 @@
     height: 100px;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: wheat;
+    
 }
 .logo{
 width: 540px;
@@ -251,12 +253,10 @@ i.icon{
     font-size: 20px;
    }
    /* gallery-hero */
-   .hero-gallery{
-    
-   }
+   
    .hero-gallery img{
     border: 2px solid black;
-    opacity: 0.8;
+    opacity: 0.7;
    }
    .hero-gallery img:hover{
     opacity: 1;
@@ -299,10 +299,11 @@ i.icon{
     gap: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    
 }
+
+
+
 .hero-blog p{
     line-height: 25px;
 }
@@ -310,16 +311,20 @@ i.icon{
     display: flex;
     width: 940px;
     height: 295px;
-    opacity: 0.8;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
-.hero-blog1:hover{
-    opacity: 2;
-}
+
+
 .txt-blog1{
     text-align: center;
     width: 60%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 2px 2px 1px;
+    border-style: solid;
+    border-color: black;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 60px;
@@ -327,6 +332,16 @@ i.icon{
 .txt-blog1 h1{
     font-size: 25px;
     font-weight:900 ;
+}
+.read{
+    transition-property: all;
+transition-duration: 100ms;
+transition-timing-function: linear;
+
+}
+.read a:hover{
+    background-color: white;
+    color: black;
 }
 .read a{
     width: 150px;
@@ -337,6 +352,7 @@ i.icon{
     text-align: center;
     line-height: 30px;
     margin-left: 130px;
+    border: 2px solid black;
 }
 .tb1{
     text-decoration: underline;
@@ -345,29 +361,44 @@ i.icon{
 .hero-blog1 img{
     width: 40%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 1px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    opacity: 0.8;
+}
+.hero-blog1>img:hover{
+    opacity:1;
 }
 
 .hero-blog2 img{
     width: 40%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 1px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    opacity: 0.8;
 }
 
 .hero-blog2{
     display: flex;
     width: 940px;
     height: 295px;
-    opacity: 0.8;
+    
+    
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
-.hero-blog2:hover{
-    opacity: 2;
+.hero-blog2>img:hover{
+    opacity: 1;
 }
 .txt-blog2{
     text-align: center;
     width: 60%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 2px 2px 1px;
+    border-style: solid;
+    border-color: black;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 60px;
@@ -388,23 +419,31 @@ i.icon{
 .hero-blog3 img{
     width: 40%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 1px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    opacity: 0.8;
 }
 
 .hero-blog3{
     display: flex;
     width: 940px;
     height: 295px;
-    opacity: 0.8;
+    
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
-.hero-blog3:hover{
-    opacity: 2;
+.hero-blog3>img:hover{
+    opacity: 1;
 }
 .txt-blog3{
     text-align: center;
     width: 60%;
     height: inherit;
-    border: 2px solid black;
+    border-width: 2px 2px 2px 1px;
+    border-style: solid;
+    border-color: black;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 60px;
@@ -433,16 +472,31 @@ i.icon{
 /* hero-contact */
 .hero-contact{
     display: flex;
-   flex-direction: row;
-   justify-content: center;
+   flex-direction: column;
+
     padding-left: 230px;
 }
 .hero-contact input{
+    
     text-align: center;
     width: 700px;
     height: 70px;
     margin-top: 25px;
     border: 2px solid black;
+}
+.message{
+    text-align: center;
+    width: 700px;
+    height: 250px;
+    margin-top: 25px;
+    border: 2px solid black;
+    font-size: 17px
+
+}
+.send{
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
 }
 .send a{
     width: 100px;
@@ -455,5 +509,12 @@ i.icon{
     line-height: 50px;
     color: white;
     display: block;
+    border: 2px solid black;
 }
+.send a:hover{
+    background-color: white;
+    color: black;
+}
+
+
 /* *****end of contact */
