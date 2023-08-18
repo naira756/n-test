@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "animate": "^1.0.0",
-    "animate.css": "^4.1.1",
-    "font-awesome": "^4.7.0",
+    "animate.css": "*4.1.1",
+    "font-awesome": "*4.7.0",
     "live": "^0.1.25-beta.0",
     "server": "^1.0.38"
   }
